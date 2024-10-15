@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #F2F0E8; /* Light background for a clean look */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    text-align: center;
+}
+
+.logo {
+    width: 150px; /* Adjust the width to match your login.html */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Spacing below the logo */
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Darker text for contrast */
+}
+
+p {
+    font-size: 18px; /* Increased font size for the message */
+    margin-bottom: 20px; /* Spacing below the paragraph */
+    color: #555; /* Softer text color for less strain */
+}
+
+.logout-button {
+    background-color: #eb4848; /* Primary button color */
+    padding: 10px 20px; /* Adequate padding for buttons */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    color: white;
+    text-decoration: none; /* Remove underline from anchor tag */
+    display: inline-block; /* Make the anchor look like a button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    font-size: 16px; /* Font size for buttons */
+}
+
+.logout-button:hover {
+    background-color: #d73f3f; /* Darker shade on hover */
+}
